@@ -1,0 +1,111 @@
+body{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(images/bg-desktop.svg);
+}
+.hud{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.chat{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.write{
+    margin-top: -490px;
+    margin-left: 850px;
+}
+.h1{
+    color: white;
+    font-size: 50px;
+}
+.h2{
+    color: white;
+    font-size: 50px;
+    margin-top: -20px;
+}
+.p1{
+    color: white;
+    font-size: 25px;
+    width: 600px;
+}
+button{
+    border: 0px solid;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: hsl(257, 40%, 49%);
+    box-shadow: 10px 10px 20px;
+}
+button:hover{
+    border-radius: 2px solid;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0px 0px 0px 0px;
+    background-color: hsl(300, 69%, 71%);
+}
+@media screen and (max-width:390px) {
+    .ha{
+        width: 320px;
+        margin-top: -20px;
+    }
+    .hud{
+        margin-left: 12px;
+    }
+    .chat{
+        margin-left: 15px;
+    }
+    .write{
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .p1{
+        text-align: center;
+        width: 300px;
+        margin-left: 10px;
+    }
+    button{
+        margin-left: 80px;
+    }
+}
+@media screen and (max-width:500px) {
+    .ha{
+        width: 320px;
+        margin-top: -20px;
+    }
+    .hud{
+        margin-left: 42px;
+    }
+    .chat{
+        margin-left: 42px;
+    }
+    .write{
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .p1{
+        text-align: center;
+        width: 300px;
+        margin-left: 30px;
+    }
+    button{
+        margin-left: 80px;
+    }
+}
+/* This Is The End Of My Code, Please Do Not Manipulate This Code */
